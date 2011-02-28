@@ -1,3 +1,9 @@
-= spam_lock
+= redmine_spam_lock plugin
 
-Description goes here
+This plugin adds a 'Lock' link next to 'Activate' for registered inactive users in the User Administration page on Redmine.
+
+This way you don't need to activate a spammer user only to be able to lock it.
+
+= Author
+
+Alex Shulgin <ash@commandprompt.com>
