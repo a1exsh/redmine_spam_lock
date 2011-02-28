@@ -1,5 +1,7 @@
 require 'redmine'
 
+require 'lock_users_helper_patch'
+
 Redmine::Plugin.register :redmine_spam_lock do
   name 'Redmine Spam Lock plugin'
   author 'Alex Shulgin <ash@commandprompt.com>'
