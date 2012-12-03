@@ -32,7 +32,7 @@ module LockUsersHelperPatch
     def change_status_link_with_lock_link(user)
       link = change_status_link_without_lock_link(user)
       if user.registered?
-        link + " " + lock_user_link(user)
+        (link + " " + lock_user_link(user)).html_safe
       else
         link
       end
